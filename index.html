@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <input type="checkbox" id="dark-mode-toggle" class="theme-toggle-input">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+
+    <div class="page-container">
+        <header>
+            <div class="logo">
+                <a href="#home">Sekolah Kita</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <label for="dark-mode-toggle" class="theme-toggle-label">
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06zM12 21.75a.75.75 0 01-.75-.75v-2.25a.75.75 0 011.5 0V21a.75.75 0 01-.75.75zM5.106 17.894a.75.75 0 010-1.06l1.59-1.591a.75.75 0 011.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM2.25 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zM6.106 5.106a.75.75 0 011.06 0l1.591 1.59a.75.75 0 01-1.06 1.06L5.106 6.167a.75.75 0 010-1.06z"/></svg>
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.472-.69a.75.75 0 01.82.162a10.5 10.5 0 01-1.591 1.591A10.518 10.518 0 0118 21a10.5 10.5 0 01-10.5-10.5c0-4.368 2.667-8.112 6.46-9.674a.75.75 0 01.162-.819z" clip-rule="evenodd" /></svg>
+                </label>
+                <label for="menu-toggle" class="menu-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main>
+            <section id="home">
+                <div class="content">
+                    <h1>Selamat Datang di Sekolah Kita</h1>
+                    <p>Mencetak Generasi Unggul, Kreatif, dan Berkarakter.</p>
+                    <a href="#about" class="cta-button">Pelajari Lebih Lanjut</a>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="content">
+                    <h2>Tentang Kami</h2>
+                    <p>Didirikan pada tahun 2005, Sekolah Kita berkomitmen untuk menyediakan pendidikan berkualitas yang mengintegrasikan kurikulum nasional dengan pengembangan soft skills. Visi kami adalah menjadi institusi pendidikan terdepan yang menginspirasi siswa untuk mencapai potensi maksimal mereka.</p>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <div class="content">
+                    <h2>Galeri Kegiatan</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><img src="https://placehold.co/600x400/007BFF/white?text=Kegiatan+1" alt="Kegiatan 1"></div>
+                        <div class="gallery-item"><img src="https://placehold.co/600x400/28A745/white?text=Kegiatan+2" alt="Kegiatan 2"></div>
+                        <div class="gallery-item"><img src="https://placehold.co/600x400/DC3545/white?text=Kegiatan+3" alt="Kegiatan 3"></div>
+                        <div class="gallery-item"><img src="https://placehold.co/600x400/FFC107/black?text=Kegiatan+4" alt="Kegiatan 4"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="review">
+                <div class="content">
+                    <h2>Apa Kata Mereka?</h2>
+                    <div class="review-container">
+                        <div class="review-card">
+                            <p>"Fasilitasnya lengkap dan guru-gurunya sangat mendukung. Anak saya jadi lebih semangat belajar."</p>
+                            <h4>- Orang Tua Siswa</h4>
+                        </div>
+                        <div class="review-card">
+                            <p>"Lingkungan belajarnya sangat nyaman dan teman-temannya asyik. Banyak ekstrakurikuler seru!"</p>
+                            <h4>- Siswa Kelas XI</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="content">
+                    <h2>Hubungi Kami</h2>
+                    <p>Punya pertanyaan lebih lanjut? Jangan ragu untuk menghubungi kami.</p>
+                    <div class="contact-info">
+                        <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Jakarta, Indonesia</p>
+                        <p><strong>Telepon:</strong> (021) 123-4567</p>
+                        <p><strong>Email:</strong> info@sekolahkita.sch.id</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Sekolah Kita. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
