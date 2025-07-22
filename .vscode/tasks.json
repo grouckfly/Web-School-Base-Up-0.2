@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "Live Preview",
-			"workspacePath": "d:\\Bangun Web\\Web-School-Base-0.1",
+			"workspacePath": "d:\\Bangun Web\\Web-School-Base Up-0.2",
 			"problemMatcher": [],
 			"label": "Live Preview: Run Server"
 		}

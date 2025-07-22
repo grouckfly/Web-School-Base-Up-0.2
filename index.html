@@ -1,115 +1,288 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Sekolah Sederhana</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sekolah Anda - Sekolah Unggul Berkarakter</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-
-    <input type="checkbox" id="dark-mode-toggle" class="theme-toggle-input">
-    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
-
-    <div class="page-container">
-        <header>
-            <div class="logo">
-                <a href="#home">Sekolah Kita</a>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#review">Review</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-controls">
-                <label for="dark-mode-toggle" class="theme-toggle-label">
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06zM12 21.75a.75.75 0 01-.75-.75v-2.25a.75.75 0 011.5 0V21a.75.75 0 01-.75.75zM5.106 17.894a.75.75 0 010-1.06l1.59-1.591a.75.75 0 011.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM2.25 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zM6.106 5.106a.75.75 0 011.06 0l1.591 1.59a.75.75 0 01-1.06 1.06L5.106 6.167a.75.75 0 010-1.06z"/></svg>
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.472-.69a.75.75 0 01.82.162a10.5 10.5 0 01-1.591 1.591A10.518 10.518 0 0118 21a10.5 10.5 0 01-10.5-10.5c0-4.368 2.667-8.112 6.46-9.674a.75.75 0 01.162-.819z" clip-rule="evenodd" /></svg>
-                </label>
-                <label for="menu-toggle" class="menu-toggle-label">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </div>
-        </header>
-
-        <aside class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#review">Review</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </aside>
-        
-        <main>
-            <section id="home">
-                <div class="content">
-                    <h1>Selamat Datang di Sekolah Kita</h1>
-                    <p>Mencetak Generasi Unggul, Kreatif, dan Berkarakter.</p>
-                    <a href="#about" class="cta-button">Pelajari Lebih Lanjut</a>
-                </div>
-            </section>
-
-            <section id="about">
-                <div class="content">
-                    <h2>Tentang Kami</h2>
-                    <p>Didirikan pada tahun 2005, Sekolah Kita berkomitmen untuk menyediakan pendidikan berkualitas yang mengintegrasikan kurikulum nasional dengan pengembangan soft skills. Visi kami adalah menjadi institusi pendidikan terdepan yang menginspirasi siswa untuk mencapai potensi maksimal mereka.</p>
-                </div>
-            </section>
-
-            <section id="gallery">
-                <div class="content">
-                    <h2>Galeri Kegiatan</h2>
-                    <div class="gallery-grid">
-                        <div class="gallery-item"><img src="https://placehold.co/600x400/007BFF/white?text=Kegiatan+1" alt="Kegiatan 1"></div>
-                        <div class="gallery-item"><img src="https://placehold.co/600x400/28A745/white?text=Kegiatan+2" alt="Kegiatan 2"></div>
-                        <div class="gallery-item"><img src="https://placehold.co/600x400/DC3545/white?text=Kegiatan+3" alt="Kegiatan 3"></div>
-                        <div class="gallery-item"><img src="https://placehold.co/600x400/FFC107/black?text=Kegiatan+4" alt="Kegiatan 4"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="review">
-                <div class="content">
-                    <h2>Apa Kata Mereka?</h2>
-                    <div class="review-container">
-                        <div class="review-card">
-                            <p>"Fasilitasnya lengkap dan guru-gurunya sangat mendukung. Anak saya jadi lebih semangat belajar."</p>
-                            <h4>- Orang Tua Siswa</h4>
-                        </div>
-                        <div class="review-card">
-                            <p>"Lingkungan belajarnya sangat nyaman dan teman-temannya asyik. Banyak ekstrakurikuler seru!"</p>
-                            <h4>- Siswa Kelas XI</h4>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="contact">
-                <div class="content">
-                    <h2>Hubungi Kami</h2>
-                    <p>Punya pertanyaan lebih lanjut? Jangan ragu untuk menghubungi kami.</p>
-                    <div class="contact-info">
-                        <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Jakarta, Indonesia</p>
-                        <p><strong>Telepon:</strong> (021) 123-4567</p>
-                        <p><strong>Email:</strong> info@sekolahkita.sch.id</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2025 Sekolah Kita. All Rights Reserved.</p>
-        </footer>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <h2>Loading...</h2>
+            <p>Memuat Website Sekolah</p>
+        </div>
     </div>
+
+    <!-- Welcome Screen -->
+    <div class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-content">
+            <h1>Selamat Datang</h1>
+            <p>di Sekolah Anda</p>
+            <button class="btn" onclick="closeWelcome()">Masuk ke Website</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <p><i class="fas fa-phone"></i> (021) 123-4567 | <i class="fas fa-envelope"></i> info@Sekolah.sch.id</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Sekolah Anda</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="sidebarClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-menu">
+            <li><a href="#home"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Galeri</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="section-content">
+            <div class="hero-content">
+                <h1>Sekolah Anda</h1>
+                <p>Sekolah Unggul Berkarakter untuk Masa Depan Gemilang</p>
+                <a href="#about" class="btn">Jelajahi Sekolah</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Tentang Kami</h2>
+            <p class="section-subtitle">Mengenal lebih dekat Sekolah Anda</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Prestasi Unggulan</h3>
+                    <p>Meraih berbagai prestasi akademik dan non-akademik tingkat nasional dan internasional</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Tenaga Profesional</h3>
+                    <p>Didukung oleh guru-guru berpengalaman dan berkualifikasi tinggi</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Fasilitas Modern</h3>
+                    <p>Dilengkapi dengan fasilitas pembelajaran yang lengkap dan modern</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Wawasan Global</h3>
+                    <p>Mempersiapkan siswa dengan wawasan global dan karakter yang kuat</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Teknologi Terdepan</h3>
+                    <p>Memanfaatkan teknologi terdepan dalam proses pembelajaran</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Lingkungan Kondusif</h3>
+                    <p>Menciptakan lingkungan belajar yang nyaman dan kondusif</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Galeri Sekolah</h2>
+            <p class="section-subtitle">Dokumentasi kegiatan dan fasilitas sekolah</p>
+
+            <div class="gallery-slider">
+                <div class="gallery-container" id="galleryContainer">
+                    <div class="gallery-slide"
+                        style="background-image: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80')">
+                        <div class="slide-content">
+                            <h3>Kegiatan Ekstrakurikuler</h3>
+                            <p>Beragam kegiatan ekstrakurikuler untuk mengembangkan bakat siswa</p>
+                        </div>
+                    </div>
+                    <div class="gallery-slide"
+                        style="background-image: url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                        <div class="slide-content">
+                            <h3>Lapangan Olahraga</h3>
+                            <p>Lapangan olahraga lengkap untuk berbagai cabang olahraga</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="gallery-nav gallery-prev" id="galleryPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="gallery-nav gallery-next" id="galleryNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="gallery-dots" id="galleryDots"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="section-subtitle">Sampaikan pertanyaan atau saran Anda</p>
+
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" placeholder="Masukkan subjek pesan" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda"
+                                required></textarea>
+                        </div>
+                        <div class="contact-buttons">
+                            <button type="button" class="btn btn-whatsapp" onclick="sendWhatsApp()">
+                                <i class="fab fa-whatsapp"></i> Kirim via WhatsApp
+                            </button>
+                            <button type="button" class="btn btn-email" onclick="sendEmail()">
+                                <i class="fas fa-envelope"></i> Kirim via Email
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Pendidikan No. 123<br>Jakarta Selatan 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>(021) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@sekolah.sch.id</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 07:00 - 16:00<br>Sabtu: 07:00 - 12:00</p>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.1944491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1635724877777!5m2!1sen!2sid"
+                            allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Sekolah Anda</h3>
+                    <p>Sekolah Anda berkomitmen untuk memberikan pendidikan berkualitas dan
+                        membentuk generasi unggul berkarakter.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul style="list-style: none; text-align: left;">
+                        <li style="margin: 0.5rem 0;"><a href="#home"
+                                style="color: white; text-decoration: none;">Beranda</a></li>
+                        <li style="margin: 0.5rem 0;"><a href="#about"
+                                style="color: white; text-decoration: none;">Tentang Kami</a></li>
+                        <li style="margin: 0.5rem 0;"><a href="#gallery"
+                                style="color: white; text-decoration: none;">Galeri</a></li>
+                        <li style="margin: 0.5rem 0;"><a href="#contact"
+                                style="color: white; text-decoration: none;">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Pendidikan No. 123, Jakarta Selatan</p>
+                    <p><i class="fas fa-phone"></i> (021) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@sekolah.sch.id</p>
+                </div>
+            </div>
+            <hr style="margin: 2rem 0; border: none; height: 1px; background: rgba(255,255,255,0.2);">
+            <p>&copy; 2025 Sekolah Anda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
